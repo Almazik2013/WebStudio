@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 32px;
+    padding-top: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+.contacts {
+    display: flex;
+    gap: 50px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #2F303A;
+    padding-left: 452px;
+    padding-right: 452px;
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    width: 696px;
+    height: 120px;
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: #757575;
+}
+
+.features-card {
+    width: 270px;
+    height: 72px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 94px;
+    padding-bottom: 118px;
+}
+
+.work-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.work-images{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 188px;
+}
+
+.team-text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #212121;
+}
+
+.img{
+    width: 270px;
+    height: 260px;
+}
+
+.team-card-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #212121;
+}
+
+.team-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-card{
+    text-align: center;
+}
+
+.team{
+    padding-bottom: 94px;
+}
+
+.footer{
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 215px;
+    padding-right: 1154px;
+}
+
+.footer-text-white{
+    color: #FFFFFF;
+}
